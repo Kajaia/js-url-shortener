@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "URL Shortener - Infoajara.com",
+  "version": "1.0",
+  "description": "Shortens URLs for Free. Service is provided by NNLE Tourism Product Development Agency (TPDA) - Infoajara.com. Developed by Lasha Kajaia - Jrwebdeveloper.com",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "favicon.ico"
+  },
+  "permissions": ["activeTab", "https://infoajara.com/api/*"]
+}
