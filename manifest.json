@@ -3,9 +3,19 @@
   "name": "URL Shortener",
   "version": "1.0",
   "description": "Shortens URLs for Free. Service is provided by Tourism Product Development Agency. Developed by Lasha Kajaia",
-  "browser_action": {
+  "action": {
     "default_popup": "popup.html",
-    "default_icon": "icon.png"
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
   },
-  "permissions": ["activeTab", "https://infoajara.com/api/*"]
+  "permissions": ["activeTab"],
+  "host_permissions": ["https://infoajara.com/*"],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
 }
