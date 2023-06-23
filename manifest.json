@@ -11,8 +11,6 @@
       "128": "icon.png"
     }
   },
-  "permissions": ["activeTab"],
-  "host_permissions": ["https://infoajara.com/*"],
   "icons": {
     "16": "icon.png",
     "48": "icon.png",
